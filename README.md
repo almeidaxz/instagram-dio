@@ -11,7 +11,7 @@ Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface
 
 <hr>
 
-<h1>Esta é a resolução do meu desafio</h1>
+<h2>Esta é a resolução do meu desafio</h2>
 <p>Desafio realizado para o bootcamp Impulso JavaScript Evolution, da DIO</p>
 <p>Foi um projeto muito bacana, onde pude testar minhas skills com o Flexbox. Utilizei margins e paddings em locais pontuais. O posicionamento da maior parte da página foi feito utilizando o Flex. Ainda há muito à aprender, mas estou me divertindo muito com a jornada!</p>
 
