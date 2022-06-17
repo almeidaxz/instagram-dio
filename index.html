@@ -1,41 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Instagram</title>
+    <link rel="stylesheet" href="utilitarios.css">
+    <title>Instagram Clone</title>
 </head>
+
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
-        </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+    <div class="conteudo flex-column align-center">
+        <div class="hero flex-row align-center justify-center">
+            <div class="phone-image"><img src="img/insta-phoneReady2.png" alt="phones"></div>
+            <div class="hero-logIn flex-column align-center justify-around">
+                <div class="profile-log flex-column align-center justify-center bordas background-w">
+                    <img src="img/instagram-logo.png" class="logo" alt="logo instagram">
+                    <img src="img/avatar.png" alt="profile-photo" class="avatar">
+                    <a href="#" class="btn">Continuar como lucasbraz</a>
+                    <a href="#" class="strange-blue">Remover Conta</a>
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                <div class="hero-forgot flex-column justify-center align-center bordas faded-font background-w">
+                    <p class="thin">Não é lucasbraz?</p>
+                    <p><a href="#" class="strange-blue">Trocar Conta</a> <span class="thin">ou</span> <a href="#" class="strange-blue">Cadastrar-se</a></p>
+                </div>
+                <p class="obter-app thin">Obtenha o aplicativo.</p>
+                <div class="lojas flex-row">
+                    <img src="img/apple-button.png" alt="apple store" class="icones-lojas">
+                    <img src="img/googleplay-button.png" alt="play store" class="icones-lojas">
                 </div>
             </div>
         </div>
+        <footer class="rodape flex-column align-center footer-font">
+            <div class="app-utilities flex-row wrap justify-center align-center thin">
+                <div><a href="#">Meta</a></div>
+                <div><a href="#">Sobre</a></div>
+                <div><a href="#">Blog</a></div>
+                <div><a href="#">Carreiras</a></div>
+                <div><a href="#">Ajuda</a></div>
+                <div><a href="#">API</a></div>
+                <div><a href="#">Privacidade</a></div>
+                <div><a href="#">Termos</a></div>
+                <div><a href="#">Principais contas</a></div>
+                <div><a href="#">Hashtags</a></div>
+                <div><a href="#">Localizações</a></div>
+                <div><a href="#">Instagram Lite</a></div>
+                <div><a href="#">Carregamento de contatos e não usuários</a></div>
+                <div><a href="#">Dança</a></div>
+                <div><a href="#">Comida e bebida</a></div>
+                <div><a href="#">Casa e jardim</a></div>
+                <div><a href="#">Música</a></div>
+                <div><a href="#">Artes visuais</a></div>
+            </div>
+            <div class="app-copy thin flex-row">
+                <a href="#">Português (Brasil)</a>
+                <a href="#">© 2022 Instagram from Meta</a>
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>

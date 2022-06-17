@@ -1,0 +1,58 @@
+/* UTILITÁRIOS PARA FACILITAR A ESTILIZAÇÃO */
+
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.background-w{
+    background-color: #FFF;
+}
+
+.btn{
+    color: rgba(var(--eca,255,255,255),1);
+    background-color: rgba(var(--d69,0,149,246),1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 5px 9px;
+    text-align: center;
+}
+
+.bordas{
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.faded-font{
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.thin{
+    font-weight: 400;
+}
+
+.strange-blue{
+    color: rgba(var(--d69,0,149,246),1);
+}
